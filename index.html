@@ -1,268 +1,222 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Acontecimientos del Mes Patrio</title>
     <style>
-        /* Estilos Generales */
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #EAE7E1;
-            color: #222222;
-            margin: 0;
-            padding: 0;
-        }
-
-        /* 1. Encabezado */
-        header {
-            background-color: #FAF8F5;
-            padding: 20px;
-            text-align: center;
-            border-bottom: 3px solid #B22222;
-        }
-
-        header h1 {
-            font-family: Georgia, serif;
-            color: #B22222;
-            margin: 10px 0;
-            font-size: 32px;
-        }
-
-        header p {
-            color: #555555;
-            font-size: 16px;
-            font-weight: bold;
-            margin: 5px 0;
-        }
-
-        .header-content {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            max-width: 1000px;
-            margin: 0 auto;
-        }
-
-        /* 2. Barra de Navegación Horizontal */
+        /* Estilo para convertir los enlaces en una Barra de Navegación Horizontal */
         nav {
             background-color: #006847; /* Verde Patrio */
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            text-align: center;
+            padding: 5px 0;
+            width: 90%;
+            margin: 15px auto;
+            border: 1px solid #000000;
         }
-
-        nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-        }
-
-        nav li {
-            margin: 0;
-        }
-
         nav a {
-            display: block;
             color: #FFFFFF;
-            text-align: center;
-            padding: 14px 20px;
-            text-decoration: none;
+            font-family: Arial, sans-serif;
             font-weight: bold;
-            font-size: 15px;
-            transition: background-color 0.3s;
+            text-decoration: none;
+            padding: 12px 20px;
+            display: inline-block;
+            font-size: 14px;
         }
-
         nav a:hover {
-            background-color: #B22222; /* Rojo Patrio al pasar el ratón */
-        }
-
-        /* 3. Cuerpo / Contenido Principal */
-        main {
-            max-width: 1000px;
-            margin: 20px auto;
-            padding: 0 15px;
-        }
-
-        section {
-            background-color: #FAF8F5;
-            padding: 25px;
-            margin-bottom: 25px;
-            border-radius: 8px;
-            border: 1px solid #CCCCCC;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-        }
-
-        section h2 {
-            font-family: Georgia, serif;
-            color: #B22222;
-            text-align: center;
-            margin-top: 0;
-            border-bottom: 2px solid #006847;
-            padding-bottom: 10px;
-        }
-
-        /* Tablas e Imágenes */
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-
-        .personajes-grid, .timeline-grid, .mitos-grid {
-            display: flex;
-            justify-content: space-between;
-            gap: 15px;
-            flex-wrap: wrap;
-        }
-
-        .card {
-            background-color: #FFFFFF;
-            border: 1px solid #DDDDDD;
-            border-radius: 6px;
-            padding: 15px;
-            text-align: center;
-            flex: 1;
-            min-width: 200px;
-        }
-
-        .card img {
-            border-radius: 4px;
-            object-fit: cover;
-        }
-
-        .card h3, .card h4 {
-            color: #B22222;
-            margin: 10px 0 5px 0;
-        }
-
-        .card p {
-            font-size: 14px;
-            color: #444444;
-            text-align: justify;
-        }
-
-        /* 4. Pie de Página / Footer */
-        footer {
-            background-color: #B22222;
+            background-color: #B22222; /* Rojo Patrio al pasar el cursor */
             color: #FFFFFF;
-            text-align: center;
-            padding: 20px 10px;
-            margin-top: 30px;
-        }
-
-        footer p {
-            margin: 5px 0;
-            font-size: 14px;
         }
     </style>
 </head>
-<body>
+<body bgcolor="#EAE7E1" text="#222222">
 
-    <!-- 1. ENCABEZADO -->
-    <header id="inicio">
-        <div class="header-content">
-            <img src="IMG_6222.png" width="100" alt="Bandera de México">
-            <div>
-                <h1>Acontecimientos del<br>Mes Patrio (Septiembre)</h1>
-                <p>Septiembre - Historia de la Independencia</p>
-            </div>
-            <img src="IMG_6224.jpeg" width="70" alt="Estandarte de Guadalupe">
-        </div>
-    </header>
+    <!-- BARRA DE NAVEGACIÓN HORIZONTAL -->
+    <center>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#linea-tiempo">Fechas Importantes</a>
+            <a href="#personajes">Personajes Ilustres</a>
+            <a href="#mitos">Datos Curiosos y Mitos</a>
+        </nav>
+    </center>
 
-    <!-- 2. BARRA DE NAVEGACIÓN HORIZONTAL -->
-    <nav>
-        <ul>
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#linea-tiempo">Fechas Importantes</a></li>
-            <li><a href="#personajes">Personajes Ilustres</a></li>
-            <li><a href="#mitos">Datos Curiosos y Mitos</a></li>
-        </ul>
-    </nav>
+    <a name="inicio"></a>
+    <center>
+        <table border="1" cellpadding="30" cellspacing="0" width="90%" bgcolor="#FAF8F5">
+            <tr>
+                <td>
+                    <table border="0" width="100%">
+                        <tr>
+                            <td width="25%" align="center" valign="middle">
+                                <img src="IMG_6222.png" width="120" alt="Bandera de México">
+                            </td>
+                            <td width="50%" align="center" valign="middle">
+                                <h1><font color="#B22222" face="Georgia" size="6">Acontecimientos del<br>Mes Patrio<br>(Septiembre)</font></h1>
+                                <p><font color="#555555" face="Arial" size="3"><b>Septiembre - Historia de la Independencia.</b></font></p>
+                                <br>
+                                <p><font color="#777777" face="Arial" size="2"><b>Alumno:</b> Galarza Flores Brian Antonio 5-J<br>CBTIS No. 128</font></p>
+                            </td>
+                            <td width="25%" align="center" valign="middle">
+                                <img src="IMG_6224.jpeg" width="80" alt="Estandarte de Guadalupe">
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </center>
 
-    <!-- 3. CUERPO PRINCIPAL -->
-    <main>
+    <br><br>
 
-        <!-- SECCIÓN: LÍNEA DE TIEMPO -->
-        <section id="linea-tiempo">
-            <h2>Fechas Importantes (Línea de Tiempo)</h2>
-            <div class="timeline-grid">
-                <div class="card">
-                    <h4>BATALLA DE CHAPULTEPEC</h4>
-                    <p style="text-align: center;"><small><b>13 DE SEPTIEMBRE DE 1847</b></small></p>
-                    <p>Defensa del Castillo de Chapultepec por los Niños Héroes y el ejército mexicano frente al avance de las tropas estadounidenses.</p>
-                </div>
-                <div class="card">
-                    <h4>EL GRITO DE DOLORES</h4>
-                    <p style="text-align: center;"><small><b>15 DE SEPTIEMBRE DE 1810</b></small></p>
-                    <p>Conmemoración de la madrugada en que Miguel Hidalgo llamó a la población a levantarse en armas contra el dominio español.</p>
-                </div>
-                <div class="card">
-                    <h4>INICIO DE LA INDEPENDENCIA</h4>
-                    <p style="text-align: center;"><small><b>16 DE SEPTIEMBRE DE 1810</b></small></p>
-                    <p>Fecha oficial en que arranca el movimiento insurgente y la lucha armada por la libertad de México.</p>
-                </div>
-                <div class="card">
-                    <h4>CONSUMACIÓN DE LA INDEPENDENCIA</h4>
-                    <p style="text-align: center;"><small><b>27 DE SEPTIEMBRE DE 1821</b></small></p>
-                    <p>Entrada triunfal del Ejército Trigarante a la Ciudad de México, dando fin a 11 años de lucha armada y consolidando la independencia.</p>
-                </div>
-            </div>
-        </section>
+    <a name="linea-tiempo"></a>
+    <center>
+        <table border="1" cellpadding="25" cellspacing="0" width="90%" bgcolor="#FAF8F5">
+            <tr>
+                <td>
+                    <center>
+                        <h2><font color="#B22222" face="Georgia" size="5">Fechas Importantes (Línea de Tiempo).</font></h2>
+                    </center>
+                    <br><br>
 
-        <!-- SECCIÓN: PERSONAJES ILUSTRES -->
-        <section id="personajes">
-            <h2>Personajes Ilustres</h2>
-            <div class="personajes-grid">
-                <div class="card">
-                    <img src="IMG_6207.webp" width="110" height="130" alt="Miguel Hidalgo">
-                    <h3>Miguel Hidalgo y Costilla</h3>
-                    <p style="text-align: center;">Padre de la Patria e iniciador del movimiento.</p>
-                </div>
-                <div class="card">
-                    <img src="IMG_6208.jpeg" width="110" height="130" alt="Josefa Ortiz">
-                    <h3>Josefa Ortiz de Domínguez</h3>
-                    <p style="text-align: center;">La Corregidora, clave en avisar de la conspiración.</p>
-                </div>
-                <div class="card">
-                    <img src="IMG_6209.jpeg" width="110" height="130" alt="José María Morelos">
-                    <h3>José María Morelos y Pavón</h3>
-                    <p style="text-align: center;">Autor de "Sentimientos de la Nación".</p>
-                </div>
-                <div class="card">
-                    <img src="IMG_6210.webp" width="110" height="130" alt="Ignacio Allende">
-                    <h3>Ignacio Allende</h3>
-                    <p style="text-align: center;">Capitán militar del movimiento insurgente.</p>
-                </div>
-            </div>
-        </section>
+                    <table border="0" cellpadding="8" cellspacing="0" width="100%">
+                        <tr>
+                            <td width="25%" align="center" valign="bottom">
+                                <font color="#8B0000" face="Arial" size="2"><b>BATALLA DE CHAPULTEPEC.</b></font><br>
+                                <font color="#666666" face="Arial" size="1"><b>13 DE SEPTIEMBRE DE 1847</b></font>
+                            </td>
+                            <td width="25%" align="center" valign="bottom">
+                                <font color="#8B0000" face="Arial" size="2"><b>EL GRITO DE DOLORES.</b></font><br>
+                                <font color="#666666" face="Arial" size="1"><b>15 DE SEPTIEMBRE DE 1810</b></font>
+                            </td>
+                            <td width="25%" align="center" valign="bottom">
+                                <font color="#8B0000" face="Arial" size="2"><b>INICIO DE LA INDEPENDENCIA.</b></font><br>
+                                <font color="#666666" face="Arial" size="1"><b>16 DE SEPTIEMBRE DE 1810</b></font>
+                            </td>
+                            <td width="25%" align="center" valign="bottom">
+                                <font color="#8B0000" face="Arial" size="2"><b>CONSUMACIÓN DE LA INDEPENDENCIA.</b></font><br>
+                                <font color="#666666" face="Arial" size="1"><b>27 DE SEPTIEMBRE DE 1821</b></font>
+                            </td>
+                        </tr>
 
-        <!-- SECCIÓN: DATOS CURIOSOS Y MITOS -->
-        <section id="mitos">
-            <h2>Datos Curiosos y Mitos</h2>
-            <div class="mitos-grid">
-                <div class="card">
-                    <h3>EL MITO DEL PÍPILA</h3>
-                    <p>Según la versión popular, Juan José de los Reyes "El Pípila" se colocó una losa de piedra en la espalda para quemar la puerta de la Alhóndiga de Granaditas. Historiadores señalan que representa el esfuerzo colectivo de los mineros de Guanajuato más que la hazaña de un solo hombre.</p>
-                </div>
-                <div class="card">
-                    <h3>LA CAMPANA DE DOLORES</h3>
-                    <p>La historia tradicional cuenta que el cura Miguel Hidalgo tocó la campana de la parroquia a la medianoche del 15 de septiembre. La realidad histórica indica que el llamado ocurrió entre las 5:00 y las 6:00 de la mañana del 16 de septiembre de 1810, utilizando el campanario para convocar a los feligreses a la misa dominical antes de iniciar el levantamiento.</p>
-                </div>
-            </div>
-        </section>
+                        <tr>
+                            <td colspan="4" align="center">
+                                <hr color="#8B0000" size="4" width="100%">
+                            </td>
+                        </tr>
 
-    </main>
+                        <tr>
+                            <td width="25%" align="center" valign="top">
+                                <p align="justify"><font face="Arial" size="2" color="#444444">Defensa del Castillo de Chapultepec por los Niños Héroes y el ejército mexicano frente al avance de las tropas estadounidenses.</font></p>
+                            </td>
+                            <td width="25%" align="center" valign="top">
+                                <p align="justify"><font face="Arial" size="2" color="#444444">Conmemoración de la madrugada en que Miguel Hidalgo llamó a la población a levantarse en armas contra el dominio español.</font></p>
+                            </td>
+                            <td width="25%" align="center" valign="top">
+                                <p align="justify"><font face="Arial" size="2" color="#444444">Fecha oficial en que arranca el movimiento insurgente y la lucha armada por la libertad de México.</font></p>
+                            </td>
+                            <td width="25%" align="center" valign="top">
+                                <p align="justify"><font face="Arial" size="2" color="#444444">Entrada triunfal del Ejército Trigarante a la Ciudad de México, dando fin a 11 años de lucha armada y consolidando la independencia.</font></p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </center>
 
-    <!-- 4. FOOTER (PIE DE PÁGINA) -->
-    <footer>
-        <p><b>Alumno:</b> Galarza Flores Brian Antonio</p>
-        <p><b>No. de Control:</b> [Ingresa aquí tu No. de Control]</p>
-        <p><b>Grupo:</b> 5-J | CBTIS No. 128 | Proyecto Desarrollo Web</p>
-    </footer>
+    <br><br>
 
+    <a name="personajes"></a>
+    <center>
+        <table border="1" cellpadding="25" cellspacing="0" width="90%" bgcolor="#FAF8F5">
+            <tr>
+                <td>
+                    <center>
+                        <h2><font color="#B22222" face="Georgia" size="5">Personajes Ilustres</font></h2>
+                    </center>
+                    <br><br>
+
+                    <table border="0" cellpadding="10" cellspacing="0" width="100%">
+                        <tr>
+                            <td width="25%" align="center" valign="top">
+                                <img src="IMG_6207.webp" width="110" height="130" border="1" alt="Miguel Hidalgo"><br><br>
+                                <font color="#B22222" face="Arial" size="2"><b>Miguel Hidalgo y Costilla</b></font><br><br>
+                                <font face="Arial" size="2" color="#555555">Padre de la Patria e iniciador del movimiento.</font>
+                            </td>
+                            <td width="25%" align="center" valign="top">
+                                <img src="IMG_6208.jpeg" width="110" height="130" border="1" alt="Josefa Ortiz"><br><br>
+                                <font color="#B22222" face="Arial" size="2"><b>Josefa Ortiz de Domínguez</b></font><br><br>
+                                <font face="Arial" size="2" color="#555555">La Corregidora, clave en avisar de la conspiración.</font>
+                            </td>
+                            <td width="25%" align="center" valign="top">
+                                <img src="IMG_6209.jpeg" width="110" height="130" border="1" alt="José María Morelos"><br><br>
+                                <font color="#B22222" face="Arial" size="2"><b>José María Morelos y Pavón</b></font><br><br>
+                                <font face="Arial" size="2" color="#555555">Autor de "Sentimientos de la Nación".</font>
+                            </td>
+                            <td width="25%" align="center" valign="top">
+                                <img src="IMG_6210.webp" width="110" height="130" border="1" alt="Ignacio Allende"><br><br>
+                                <font color="#B22222" face="Arial" size="2"><b>Ignacio Allende</b></font><br><br>
+                                <font face="Arial" size="2" color="#555555">Capitán militar del movimiento insurgente.</font>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </center>
+
+    <br><br>
+
+    <a name="mitos"></a>
+    <center>
+        <table border="1" cellpadding="25" cellspacing="0" width="90%" bgcolor="#FAF8F5">
+            <tr>
+                <td>
+                    <table border="0" width="100%">
+                        <tr>
+                            <td align="left">
+                                <h2><font color="#B22222" face="Georgia" size="5">Datos Curiosos y Mitos.</font></h2>
+                            </td>
+                            <td align="right">
+                                <img src="IMG_6224.jpeg" width="60" alt="Virgen de Guadalupe">
+                            </td>
+                        </tr>
+                    </table>
+                    <br>
+
+                    <table border="0" cellpadding="15" cellspacing="10" width="100%">
+                        <tr>
+                            <td width="50%" valign="top" bgcolor="#FFFFFF">
+                                <h3><font color="#B22222" face="Arial" size="3">EL MITO DEL PÍPILA</font></h3>
+                                <p align="justify"><font face="Arial" size="2" color="#555555">Según la versión popular, Juan José de los Reyes "El Pípila" se colocó una losa de piedra en la espalda para quemar la puerta de la Alhóndiga de Granaditas. Historiadores señalan que representa el esfuerzo colectivo de los mineros de Guanajuato más que la hazaña de un solo hombre.</font></p>
+                            </td>
+                            <td width="50%" valign="top" bgcolor="#FFFFFF">
+                                <h3><font color="#B22222" face="Arial" size="3">LA CAMPANA DE DOLORES</font></h3>
+                                <p align="justify"><font face="Arial" size="2" color="#555555">La historia tradicional cuenta que el cura Miguel Hidalgo tocó la campana de la parroquia a la medianoche del 15 de septiembre. La realidad histórica indica que el llamado ocurrió entre las 5:00 y las 6:00 de la mañana del 16 de septiembre de 1810, utilizando el campanario para convocar a los feligreses a la misa dominical antes de iniciar el levantamiento.</font></p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </center>
+
+    <br><br>
+
+    <!-- FOOTER -->
+    <table border="0" cellpadding="15" cellspacing="0" width="100%" bgcolor="#B22222">
+        <tr>
+            <td align="center">
+                <font color="#FFFFFF" face="Arial" size="2">
+                    <b>Alumno:</b> Galarza Flores Brian Antonio &nbsp;|&nbsp;
+                    <b>No. de Control:</b> [Ingresa tu No. de Control] &nbsp;|&nbsp;
+                    <b>Grupo:</b> 5-J &nbsp;|&nbsp; CBTIS No. 128
+                </font>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
 </body>
 </html>
